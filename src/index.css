@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply m-0 p-0 overflow-x-hidden bg-navy-900 text-gray-900;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient-coral-gold {
+    @apply bg-gradient-to-r from-gold-500 to-coral-500 bg-clip-text text-transparent;
+  }
+
+  .bg-gradient-navy {
+    background: linear-gradient(155deg, #0a1628 0%, #1e3a5f 50%, #2d5a8e 100%);
+  }
+
+  .bg-gradient-coral-gold {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ffd93d 100%);
+  }
+
+  .backdrop-blur-glass {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+}
