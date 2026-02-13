@@ -114,7 +114,7 @@ export const websiteContent = {
       corporate: {
         title: "Corporate Solutions",
         tagline: "Elevating Corporate Identity",
-        image: "corporate",
+        image: "https://i.pinimg.com/1200x/46/a4/e9/46a4e975ce0955c9ca21caf5af3f18ea.jpg",
         features: [
           "Premium Blazers, Shirts, Trousers & Sarees",
           "Perfect Fit & Professional Aesthetics",
@@ -125,7 +125,7 @@ export const websiteContent = {
       healthcare: {
         title: "Healthcare Solutions",
         tagline: "Hygiene, Comfort & Trust",
-        image: "healthcare",
+        image: "https://i.pinimg.com/1200x/83/ff/f4/83fff4c94b4972e1a789f530ba74d420.jpg",
         features: [
           "Scrubs, Lab Coats & Patient Gowns",
           "Durable, Anti-Microbial Fabrics",
@@ -136,7 +136,7 @@ export const websiteContent = {
       hospitality: {
         title: "Hospitality Solutions",
         tagline: "Style that Welcomes",
-        image: "",
+        image:"https://i.pinimg.com/736x/54/77/9a/54779a7c48458a46af27056d69a88304.jpg",
         features: [
           "Hotel Staff Suits & Uniforms",
           "Chef Jackets & Cafe Aprons",
@@ -147,7 +147,7 @@ export const websiteContent = {
       education: {
         title: "Education Solutions",
         tagline: "Shaping Tomorrow's Leaders",
-        image: "education",
+        image: "https://i.pinimg.com/1200x/d5/22/27/d5222734ace3a30ba0b861ddce86c20a.jpg",
         features: [
           "School & College Blazers, Ties, Shirts, Skirts",
           "Sports Kits & Athletic Wear",
@@ -249,11 +249,11 @@ export const websiteContent = {
         text: "info@thenextgenstitch.com",
         link: "mailto:info@thenextgenstitch.com"
       },
-      website: {
-        icon: "🌐",
-        text: "www.thenextgenstitch.com",
-        link: "https://www.thenextgenstitch.com"
-      }
+      // website: {
+      //   icon: "🌐",
+      //   text: "www.thenextgenstitch.com",
+      //   link: "https://www.thenextgenstitch.com"
+      // }
     }
   }
 };

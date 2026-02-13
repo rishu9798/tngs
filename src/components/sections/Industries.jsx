@@ -13,7 +13,7 @@ const Industries = () => {
   };
 
   return (
-    <section id="industries" ref={ref} className="min-h-screen py-20 lg:py-32 bg-white">
+    <section id="industries" ref={ref} className="min-h-screen py-20 lg:py-32 bg-[rgba(210,207,212,1)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ const Industries = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ delay: index * 0.1, duration: 0.6 }}
               whileHover={{ y: -15 }}
-              className="relative bg-cream rounded-3xl p-8 text-center shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group"
+              className="relative bg-slate-200 rounded-3xl p-8 text-center shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group"
             >
               {/* Decorative background */}
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

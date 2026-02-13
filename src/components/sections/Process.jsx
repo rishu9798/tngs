@@ -7,7 +7,7 @@ const Process = () => {
   const { process } = websiteContent;
 
   return (
-    <section id="process" ref={ref} className="min-h-screen py-20 lg:py-32 bg-cream">
+    <section id="process" ref={ref} className="min-h-screen py-20 lg:py-32 bg-[rgba(210,207,212,1)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,7 @@ const Process = () => {
               initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
               animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
               transition={{ delay: index * 0.15, duration: 0.6 }}
-              className="relative bg-white rounded-3xl p-8 lg:p-10 shadow-lg hover:shadow-2xl transition-all duration-300"
+              className="relative bg-slate-200 rounded-3xl p-8 lg:p-10 shadow-lg hover:shadow-2xl transition-all duration-300"
             >
               {/* Number Badge */}
               <div className="absolute -top-6 left-8">

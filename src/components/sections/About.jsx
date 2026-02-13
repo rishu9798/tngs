@@ -26,7 +26,7 @@ const About = () => {
   };
 
   return (
-    <section id="about" ref={ref} className="py-20  min-h-screen lg:py-32 bg-cream">
+    <section id="about" ref={ref} className="py-20  min-h-screen lg:py-32 bg-[rgba(210,207,212,1)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial="hidden"
@@ -57,7 +57,7 @@ const About = () => {
         >
           <motion.div
             variants={itemVariants}
-            className="bg-white rounded-3xl p-8 lg:p-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 border-l-4 border-coral-500"
+            className="bg-slate-200 rounded-3xl p-8 lg:p-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 border-l-4 border-coral-500"
           >
             <div className="w-16 h-16 bg-gradient-to-br from-coral-500 to-coral-400 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">🎯</span>
@@ -72,7 +72,7 @@ const About = () => {
 
           <motion.div
             variants={itemVariants}
-            className="bg-white rounded-3xl p-8 lg:p-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 border-l-4 border-teal-500"
+            className="bg-slate-200 rounded-3xl p-8 lg:p-12 shadow-xl hover:shadow-2xl transition-shadow duration-300 border-l-4 border-teal-500"
           >
             <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-400 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">👁️</span>
@@ -98,7 +98,7 @@ const About = () => {
               key={index}
               variants={itemVariants}
               whileHover={{ y: -10 }}
-              className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-slate-200 rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="text-5xl mb-4">{value.icon}</div>
               <h4 className="text-xl font-bold text-navy-900 mb-3">

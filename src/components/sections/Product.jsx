@@ -12,7 +12,7 @@ function Product() {
   const activeProduct = products.items[activeKey];
 
   return (
-    <section className="min-h-screen py-20 bg-[#f8f5f0]">
+    <section className="min-h-screen py-20 bg-[rgba(210,207,212,1)]">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Title */}
@@ -81,11 +81,21 @@ function Product() {
                 </ul>
 
                 {/* IMAGE */}
-                <div className="h-64 bg-gradient-to-br from-[#1e3a5f] to-[#2c3e50] rounded-xl flex items-center justify-center text-white text-lg font-semibold">
-                  {activeProduct.image
-                    ? activeProduct.image.toUpperCase() + " IMAGE"
-                    : "Image Coming Soon"}
-                </div>
+                <div className="w-full rounded-xl overflow-hidden bg-white flex items-center justify-center">
+            {activeProduct.image ? (
+           <img
+            src={activeProduct.image}
+            alt={activeProduct.title}
+             className="w-full h-auto object-contain"
+            />
+          ) : (
+         <div className="h-64 w-full bg-gradient-to-br from-[#1e3a5f] to-[#2c3e50] flex items-center justify-center text-white text-lg font-semibold">
+          Image Coming Soon
+        </div>
+         )}
+         </div>
+
+
 
               </motion.div>
             </AnimatePresence>
